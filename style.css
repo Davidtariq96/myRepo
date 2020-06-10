@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: skyblue;
+}
+.container-fluid{
+    margin: 0 auto;
+    min-width: 600px;
+    min-width: 150px;
+    height: auto;
+}
+
+.card{
+    max-width: 900px;
+    min-width: 100px;
+    max-height: 400px;
+    min-height: 80px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    margin-top: 7rem;
+    padding: 0px;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+.wrapper{
+    max-width: 700px;
+    min-width: 100px;
+    height: 400px;
+}
+
+ blockquote .text{
+    margin-left: 6rem;
+}
+span{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+.card img{
+    max-width: 400px;
+    min-width: 100px;
+    height:auto;
+    border-radius: 8px 0px 0px 8px;
+}
+
+blockquote p{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: -4rem;
+}
+.grid-container2{
+    display: flex;
+    justify-content: center;
+    align-content:space-around;
+    
+}
+.grid-container2 > div{
+    padding: 10px 54px 10px 67px ;
+    margin: 5px 11px 0px 0px;
+}
+
+.grid-container2 > div:hover{
+  transform: scale(1.5, 1.5);
+
+}
+
+.grid-container2 img{
+    width: 40px;
+}
+
+.item3{
+    background: white;
+    padding: 10px 16px 10px 10px;
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+    border-radius: 5px;
+}
+.item4{
+    background: white;
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+    border-radius: 5px;
+}
+.item5{
+    background: white;
+    padding: 10px 16px 10px 10px;
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+    border-radius: 5px;
+}
+.item6{
+    background: white;
+    padding: 10px 16px 10px 10px;
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+    border-radius: 5px;
+}
+.item7{
+    background: black;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+    border-radius: 5px;
+}
+.item7 a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-left: -8px;
+}
+i{
+    margin-left: 0.3rem;
+}
+
+@media only screen and (max-width:820px){
+    .grid-container2 > div{
+        padding: 5px 10px 8px 15px ;
+        margin: 10px 5px 0px 0px;
+    }   
+
+    .item7 a{
+        font-size: 0.7rem;
+    }
+
+    blockquote p{
+        margin-top: 5rem;
+        font-size: 0.8rem;
+    }
+    
+    h3{
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: -4.4rem;
+        font-size: 1rem;
+    }
+
+    blockquote .text{
+        text-align: justify;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+}
